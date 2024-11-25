@@ -1,0 +1,54 @@
+body {
+    font-family: serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 0;
+}
+
+.dice {
+    font-size: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    color: rgba(0, 0, 0, 0.817);
+    transition: transform 0.5s ease;  /* Smooth transition for moving the dice */
+}
+
+.dice-btn {
+    font-size: 2rem;
+    border: .5px solid black;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list {
+    list-style: none;
+    max-width: 600px;
+    font-size: 1.8rem;
+    margin-left: 19rem;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    border: 1px solid rgb(194, 105, 105);
+    background-color: rgb(247, 166, 60);
+    margin: .8rem;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+span {
+    font-size: 3rem;
+    padding-right: 1rem;
+    box-shadow: 1rem;
+}
